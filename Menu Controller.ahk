@@ -21,9 +21,6 @@
     MyMenu.Add("XXML Shares", (*) => Run("https://core.callbox.com/admin/managefeeds.cfm?lid=" . selection))
     MyMenu.Add("Open Ticket in Zendesk", (*) => Run("https://callboxsupport.zendesk.com/agent/tickets/" . selection))  
     
-    ; Example of future menu item:
-    ; MyMenu.Add("Callbox Dashboard", (*) => Run("https://core.callbox.com/dashboard.cfm"))
-
     MouseGetPos(&x, &y)
     MyMenu.Show(x, y)
 }
