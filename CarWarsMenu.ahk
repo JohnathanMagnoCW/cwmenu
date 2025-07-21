@@ -1,6 +1,6 @@
 ; CWMenu_Loader.ahk - Auto-updater for Menu Controller.ahk (AHK v2)
 
-remoteUrl := "https://raw.githubusercontent.com/JohnathanMagnoCW/cwmenu/main/Menu%20Controller.ahk"
+remoteUrl := "https://raw.githubusercontent.com/JohnathanMagnoCW/cwmenu/refs/heads/main/Menu%20Controller.ahk"
 localFile := A_ScriptDir "\Menu Controller.ahk"
 lastUpdatedFile := A_ScriptDir "\menu_last_updated.txt"
 
