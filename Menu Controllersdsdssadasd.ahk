@@ -20,8 +20,7 @@
     MyMenu.Add("Tracking Line DNIS Search", (*) => Run("https://core.callbox.com/admin/phone_search.cfm?lednis=" . selection))
     MyMenu.Add("XXML Shares", (*) => Run("https://core.callbox.com/admin/managefeeds.cfm?lid=" . selection))
     MyMenu.Add("Open Ticket in Zendesk", (*) => Run("https://callboxsupport.zendesk.com/agent/tickets/" . selection))
-    MyMenu.Add("Test Menu", (*) => Run("https://callboxsupport.zendesk.com/agent/tickets/" . selection))
-  
+ 
     
     ; Example of future menu item:
     ; MyMenu.Add("Callbox Dashboard", (*) => Run("https://core.callbox.com/dashboard.cfm"))
