@@ -1,5 +1,3 @@
-; CWMenu_Loader.ahk - Auto-updater for Menu Controller.ahk (AHK v2)
-
 remoteUrl := "https://raw.githubusercontent.com/JohnathanMagnoCW/cwmenu/refs/heads/main/Menu%20Controller.ahk"
 localFile := A_ScriptDir "\Menu Controller.ahk"
 lastUpdatedFile := A_ScriptDir "\menu_last_updated.txt"
@@ -22,7 +20,7 @@ if shouldDownload {
         FileDelete lastUpdatedFile
         FileAppend FormatTime(, "yyyyMMddHHmmss"), lastUpdatedFile
     } catch {
-        MsgBox "❌ Failed to download the latest Menu Controller. Running existing version..."
+        MsgBox "Running existing version..."
     }
 }
 
